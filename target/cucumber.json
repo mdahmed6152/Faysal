@@ -4,156 +4,6 @@
     "elements": [
       {
         "line": 5,
-        "name": "Verify Gaming PC Deals",
-        "description": "",
-        "id": "deals;verify-gaming-pc-deals",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 760063500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Launch Dell \"\u003cURL\u003e\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u003cURL\u003e",
-                  "offset": 13
-                }
-              ],
-              "location": "Dell_Login.launch_Dell(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 632213200,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Mouseover on Deals Link",
-            "match": {
-              "location": "DealsStepDef.mouseover_on_Deals_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1239866800,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Click on Gaming PC Deals",
-            "match": {
-              "location": "DealsStepDef.click_on_Gaming_PC_Deals()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 419682200,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Verify Gaming PC Deals Page",
-            "match": {
-              "location": "DealsStepDef.verify_Gaming_PC_Deals_Page()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 4,
-            "name": "@Sprint7"
-          }
-        ]
-      },
-      {
-        "line": 13,
-        "name": "Verify Workstations",
-        "description": "",
-        "id": "deals;verify-workstations",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 561113400,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Launch Dell \"\u003cURL\u003e\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u003cURL\u003e",
-                  "offset": 13
-                }
-              ],
-              "location": "Dell_Login.launch_Dell(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 141884900,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Mouseover on Products Link",
-            "match": {
-              "location": "ProductsStepDef.mouseover_on_Products_Link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2410866200,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Click on Workstations",
-            "match": {
-              "location": "ProductsStepDef.click_on_Workstations()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 193259400,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Verify Workstations Page",
-            "match": {
-              "location": "ProductsStepDef.verify_Workstations_Page()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 12,
-            "name": "@Sprint7"
-          }
-        ]
-      }
-    ],
-    "name": "Deals",
-    "description": "",
-    "id": "deals",
-    "keyword": "Feature",
-    "uri": "Deals.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 5,
         "name": "Verify User Login in Profile",
         "description": "",
         "id": "dell-login;verify-user-login-in-profile",
@@ -162,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 546101700,
+              "duration": 828894500,
               "status": "passed"
             },
             "line": 7,
@@ -180,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 2917830800,
+              "duration": 1904831500,
               "status": "passed"
             },
             "line": 8,
@@ -192,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 309392200,
+              "duration": 291128300,
               "status": "passed"
             },
             "line": 9,
@@ -204,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 1550935700,
+              "duration": 1640657400,
               "status": "passed"
             },
             "line": 10,
@@ -221,76 +71,6 @@
             "name": "@Sprint7"
           }
         ]
-      },
-      {
-        "line": 13,
-        "name": "Verify XPS result",
-        "description": "",
-        "id": "dell-login;verify-xps-result",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 618358100,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Launch Dell \"\u003cURL\u003e\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u003cURL\u003e",
-                  "offset": 13
-                }
-              ],
-              "location": "Dell_Login.launch_Dell(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 72036700,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Enter XPS on Search Field",
-            "match": {
-              "location": "SearchResult.enter_XPS_on_Search_Field()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2105792400,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Click on Search Button",
-            "match": {
-              "location": "SearchResult.click_on_Search_Button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 221114400,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Verify XPS Search Result",
-            "match": {
-              "location": "SearchResult.verify_XPS_Search_Result()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 12,
-            "name": "@Sprint7"
-          }
-        ]
       }
     ],
     "name": "Dell Login",
@@ -304,15 +84,15 @@
     "elements": [
       {
         "line": 4,
-        "name": "Verify Servers Deals",
+        "name": "Verify Education Services Page",
         "description": "",
-        "id": "servers-deals;verify-servers-deals",
+        "id": "education-services;verify-education-services-page",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 630320500,
+              "duration": 502279100,
               "status": "passed"
             },
             "line": 6,
@@ -330,19 +110,179 @@
           },
           {
             "result": {
-              "duration": 493490300,
+              "duration": 393496900,
               "status": "passed"
             },
             "line": 7,
-            "name": "Mouseover on Deals Link",
+            "name": "Click On Services Option",
             "match": {
-              "location": "DealsStepDef.mouseover_on_Deals_Link()"
+              "location": "EducationServices.click_On_Services_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3253369000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click On Education Services",
+            "match": {
+              "location": "EducationServices.click_On_Education_Services()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1525262000,
+              "duration": 171934300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Education Services",
+            "match": {
+              "location": "EducationServices.verify_Education_Services()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Sprint7"
+          }
+        ]
+      }
+    ],
+    "name": "Education Services",
+    "description": "",
+    "id": "education-services",
+    "keyword": "Feature",
+    "uri": "EducationServices.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify Gaming PC Deals",
+        "description": "",
+        "id": "gaming-pc-deals;verify-gaming-pc-deals",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 600203200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch Dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "Dell_Login.launch_Dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202148500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Mouseover on Deals Link",
+            "match": {
+              "location": "GamingPCDeals.mouseover_on_Deals_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1420683800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Gaming PC Deals",
+            "match": {
+              "location": "GamingPCDeals.click_on_Gaming_PC_Deals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53047700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify Gaming PC Deals Page",
+            "match": {
+              "location": "GamingPCDeals.verify_Gaming_PC_Deals_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Sprint7"
+          }
+        ]
+      }
+    ],
+    "name": "Gaming PC Deals",
+    "description": "",
+    "id": "gaming-pc-deals",
+    "keyword": "Feature",
+    "uri": "GamingPCDeals.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Servers Deals",
+        "description": "",
+        "id": "servers-deals;verify-servers-deals",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 288626400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch Dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "Dell_Login.launch_Dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 409071200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Mouseover on Deals Link",
+            "match": {
+              "location": "GamingPCDeals.mouseover_on_Deals_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1776000300,
               "status": "passed"
             },
             "line": 8,
@@ -354,7 +294,7 @@
           },
           {
             "result": {
-              "duration": 677432800,
+              "duration": 111628000,
               "status": "passed"
             },
             "line": 9,
@@ -378,5 +318,165 @@
     "id": "servers-deals",
     "keyword": "Feature",
     "uri": "Servers.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Workstations",
+        "description": "",
+        "id": "workstation;verify-workstations",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 569018300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch Dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "Dell_Login.launch_Dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 398864500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Mouseover on Products Link",
+            "match": {
+              "location": "Workstation.mouseover_on_Products_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 716234000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Workstations",
+            "match": {
+              "location": "Workstation.click_on_Workstations()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 141536400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Workstations Page",
+            "match": {
+              "location": "Workstation.verify_Workstations_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Sprint7"
+          }
+        ]
+      }
+    ],
+    "name": "Workstation",
+    "description": "",
+    "id": "workstation",
+    "keyword": "Feature",
+    "uri": "Workstation.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify XPS result",
+        "description": "",
+        "id": "xpssearch;verify-xps-result",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 387201100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch Dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "Dell_Login.launch_Dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123893000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter XPS on Search Field",
+            "match": {
+              "location": "XPSSearch.enter_XPS_on_Search_Field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2851833300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "XPSSearch.click_on_Search_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97438700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify XPS Search Result",
+            "match": {
+              "location": "XPSSearch.verify_XPS_Search_Result()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Sprint7"
+          }
+        ]
+      }
+    ],
+    "name": "XPSSearch",
+    "description": "",
+    "id": "xpssearch",
+    "keyword": "Feature",
+    "uri": "XPSSearch.feature"
   }
 ]
