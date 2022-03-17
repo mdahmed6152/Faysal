@@ -56,6 +56,29 @@ public class HomePageAction extends Parent_Base {
 		
 		
 	}
+	
+   public void ClickOnServicesOption() {
+		
+		homePageLocator.ServicesOption.click();
+		
+		
+	}
+	
+   public void ClickOnEducationServices() {
+		
+		homePageLocator.EducationServices.click();
+		
+		
+	}
+   
+    public void ClickOnDataStorage() {
+    	
+    	
+    	homePageLocator.DataStorage.click();
+    	
+    		
+    }
+	
 		
 	
 	

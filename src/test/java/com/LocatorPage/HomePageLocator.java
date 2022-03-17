@@ -30,7 +30,7 @@ public class HomePageLocator extends Parent_Base {
 	@FindBy(how=How.XPATH, using="//span[text()='Deals']")
 	public WebElement DealsLink;
 	
-	@FindBy(how=How.XPATH, using="//a[text()='Gaming PC Deals']")
+	@FindBy(how=How.LINK_TEXT, using="Gaming PC Deals")
 	public WebElement GamingPC;
 	 
 	@FindBy(how=How.XPATH, using="//span[text()='Products']")
@@ -41,6 +41,18 @@ public class HomePageLocator extends Parent_Base {
 	
 	@FindBy(how=How.XPATH, using="//a[text()='Server Deals']")
 	public WebElement ServersDeals;
+	
+	@FindBy(how=How.XPATH, using="//span[text()='Services']")
+	public WebElement ServicesOption;
+	
+	@FindBy(how=How.LINK_TEXT, using="Education Services")
+	public WebElement EducationServices;
+	
+	@FindBy(how=How.XPATH, using="//a[text()='Data Storage']")
+	public WebElement DataStorage;
+	
+	
+	
 	
 }
 

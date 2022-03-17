@@ -10,7 +10,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features ={"src/test/resources/myBDDFeatures"} , 
 plugin = {"json:target/cucumber.json"},
-glue = "StepDef", tags={"@Sprint7"})
+glue = "StepDef", tags={"@dataStorage"})
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 	
@@ -26,8 +26,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	public void closeURL() {
 		
 		Parent_Base AfTest = new Parent_Base();
-		AfTest.driver.quit();
-		
+		AfTest.driver.quit();	
 		
 	}
 		

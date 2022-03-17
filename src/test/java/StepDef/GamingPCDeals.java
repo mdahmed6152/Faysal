@@ -1,16 +1,17 @@
 package StepDef;
 
+import com.ActionsPage.GamingPCDealsAction;
 import com.ActionsPage.HomePageAction;
-import com.ActionsPage.SearchPageAction;
+import com.ActionsPage.XPSSearchAction;
 import com.Utility.Parent_Base;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 
-public class DealsStepDef extends Parent_Base {
+public class GamingPCDeals extends Parent_Base {
 	
 	HomePageAction homePageAction = new HomePageAction();
-	SearchPageAction searchPageAction = new SearchPageAction();
+	GamingPCDealsAction gamingPCDealsAction = new GamingPCDealsAction();
 	
 	@Then("^Mouseover on Deals Link$")
 	public void mouseover_on_Deals_Link() throws Throwable {
@@ -27,7 +28,7 @@ public class DealsStepDef extends Parent_Base {
 
 	@And("^Verify Gaming PC Deals Page$")
 	public void verify_Gaming_PC_Deals_Page() throws Throwable {
-		searchPageAction.VerifyGamingPCDealsPage();
+		gamingPCDealsAction.VerifyGamingPCDealsPage();
 	   
 	}
 

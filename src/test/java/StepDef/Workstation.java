@@ -1,16 +1,17 @@
 package StepDef;
 
 import com.ActionsPage.HomePageAction;
-import com.ActionsPage.SearchPageAction;
+import com.ActionsPage.WorkstationAction;
+import com.ActionsPage.XPSSearchAction;
 import com.Utility.Parent_Base;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 
-public class ProductsStepDef extends Parent_Base {
+public class Workstation extends Parent_Base {
 	
 	HomePageAction homePageAction = new HomePageAction();
-	SearchPageAction searchPageAction = new  SearchPageAction();
+	WorkstationAction workstationAction = new  WorkstationAction();
 	
 	@Then("^Mouseover on Products Link$")
 	public void mouseover_on_Products_Link() throws Throwable {
@@ -29,7 +30,7 @@ public class ProductsStepDef extends Parent_Base {
 	@And("^Verify Workstations Page$")
 	public void verify_Workstations_Page() throws Throwable {
 		
-		searchPageAction.VerifyWorkstationsPage();
+		workstationAction.VerifyWorkstationsPage();
 	   
 	}
 

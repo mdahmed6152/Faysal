@@ -1,16 +1,16 @@
 package StepDef;
 
 import com.ActionsPage.HomePageAction;
-import com.ActionsPage.SearchPageAction;
+import com.ActionsPage.XPSSearchAction;
 import com.Utility.Parent_Base;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 
-public class SearchResult extends Parent_Base {
+public class XPSSearch extends Parent_Base {
 	
 	HomePageAction homePageAction = new HomePageAction();
-	SearchPageAction searchPageAction = new SearchPageAction();
+	XPSSearchAction searchPageAction = new XPSSearchAction();
 	
 	@Then("^Enter XPS on Search Field$")
 	public void enter_XPS_on_Search_Field() throws Throwable {

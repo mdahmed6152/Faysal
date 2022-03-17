@@ -7,9 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.Utility.Parent_Base;
 
-public class SearchPageLocator extends Parent_Base{
+public class XPSSearchLocator extends Parent_Base{
 
-	public SearchPageLocator() {
+	public XPSSearchLocator() {
 		
 		PageFactory.initElements(driver, this);
 	}
@@ -18,10 +18,5 @@ public class SearchPageLocator extends Parent_Base{
 	@FindBy(how=How.CSS, using="h2[class='direct-content__title']")
 	public WebElement SearchResult;
 	
-	@FindBy(how=How.XPATH, using="//h1[text()='Gaming PC Deals']")
-	public WebElement PCDealsPage;
-
-	@FindBy(how=How.XPATH, using="//h1[text()='Precision Workstations']")
-	public WebElement WorkstationsPage;
 
 }
