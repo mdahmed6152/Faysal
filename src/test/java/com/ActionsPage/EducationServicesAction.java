@@ -4,6 +4,7 @@ import org.testng.Assert;
 
 import com.LocatorPage.EducationServicesLocator;
 import com.Utility.Parent_Base;
+import com.Utility.Utility;
 
 
 public class EducationServicesAction extends Parent_Base {
@@ -14,6 +15,8 @@ public class EducationServicesAction extends Parent_Base {
 		
 		boolean verifyEducationServices = educationServicesLocator.EducationServicesText.isDisplayed();
 		Assert.assertTrue(verifyEducationServices);
+		
+   Utility.takescreenshot(driver, "Educational Services");
 		
 	}
 

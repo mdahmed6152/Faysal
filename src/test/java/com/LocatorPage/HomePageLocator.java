@@ -48,6 +48,11 @@ public class HomePageLocator extends Parent_Base {
 	@FindBy(how=How.LINK_TEXT, using="Education Services")
 	public WebElement EducationServices;
 	
+	@FindBy(how=How.XPATH, using="//a[text()='Data Storage']")
+	public WebElement DataStorage;
+	
+	
+	
 	
 }
 

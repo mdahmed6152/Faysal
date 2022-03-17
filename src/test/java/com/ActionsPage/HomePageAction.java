@@ -70,6 +70,14 @@ public class HomePageAction extends Parent_Base {
 		
 		
 	}
+   
+    public void ClickOnDataStorage() {
+    	
+    	
+    	homePageLocator.DataStorage.click();
+    	
+    		
+    }
 	
 		
 	
